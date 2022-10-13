@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: Inria Serif;
+    margin-bottom: 3em;
+    margin-left: 2em;
+    margin-right: 3em;
+}
+
+.main-logo{
+    font-size: 4em;
+    position: relative;
+    bottom: 1em; 
+
+    animation-name: fadein;
+    animation-duration: 3s;
+    }
+
+  h2 {
+    font-size: 3em;
+  }
+
+  h3 {
+    font-size: 2em;
+  }
+
+  .top-nav ul {
+    list-style: none;
+    text-align: right;
+    position: relative;
+    top: 4em;
+    right: 15em;
+  }
+
+  .top-nav li {
+    display: inline-block;
+    padding-left: 1em;
+  
+  } 
+
+.top-nav a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .top-nav a:hover {
+    color:#C60151
+  } 
+  
+  i {
+    padding-left: 1em;
+    color: #C60151;
+  }
+
+  i:hover {
+    color: #aa1752;
+  }
+  #techstop-section {
+    position: relative;
+    bottom: 40em;
+    left: 6em;
+    } 
+
+    #techstop-section p {
+        padding-bottom: 2em;
+    } 
+
+    #techstop-section h1::first-letter {
+        color: #C60151;
+       
+    } 
+
+    .techstop-button {
+        padding: 0.5em;
+        border-radius: 0.5em;
+        background-color: #C60151;
+        color: white; 
+        font-weight: bold; 
+    } 
+
+    .techstop-button:hover {
+        background-color: #aa1752;
+     
+    }
+
+    @keyframes fadein {
+        from {
+            opacity: 0;
+        } 
+        to {
+            opacity: 100;
+        }
+    } 
+
+   #mobile-section {
+    display:flex;
+    justify-content: space-evenly;
+    padding: 5em;
+    background-color: #C60151;
+   }
+
+   #mobile-section h2::first-letter {
+    color:#EA4F31;
+   
+} 
+   #mobile-info {
+    position: relative; 
+    top: 15em; 
+   }
+
+#mobile-info h2 {
+    position: relative;
+    bottom: 1em;
+} 
+
+#mobile-info p {
+    padding-bottom: 2em;
+}
+
+.mobile-button {
+    padding: 0.5em;
+        border-radius: 0.5em;
+        border: none;
+        background-color: #EA4F31;
+        color: white; 
+        font-weight: bold; 
+} 
+
+.mobile-button:hover {
+    background-color: #c94025;
+} 
+
+#audio-section {
+    display: flex; 
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    background-color: #EA4F31; 
+    padding: 5em;
+    
+} 
+
+#audio-section h2::first-letter {
+    color: #C60151;
+   
+} 
+
+#audio-section h2 {
+position: relative; 
+bottom: 1em;
+} 
+
+#audio-info {
+    position: relative;
+    top: 10em;
+}
+
+#audio-info p {
+    padding-bottom: 2em;
+} 
+
+.audio-button {
+    padding: 0.5em;
+        border-radius: 0.5em;
+        border: none;
+        background-color:#C60151;
+        color: white; 
+        font-weight: bold;
+}
+
+.audio-button:hover {
+    background-color:#aa1752;
+} 
+
+ .foot-nav {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 4em;
+ } 
+.foot-nav ul {
+  list-style: none; 
+  padding: 2em;
+} 
+
+.foot-nav li {
+    padding: 0.5em;
+    position: relative; 
+    right: 2em;
+}
+
+ .foot-nav a {
+  text-decoration: none;
+  color: white;
+  
+ } 
+
+ .foot-nav a:hover {
+    color:#C60151;
+  } 
+
+  .foot-logo {
+    font-size: 2em;
+    position: relative;
+    top: 2em;
+  }
